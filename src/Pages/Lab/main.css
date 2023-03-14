@@ -1,0 +1,32 @@
+.child-card{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0;
+    gap:3%;
+
+
+}
+
+.lab-card{
+    flex: 2;
+    width:250px;
+
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab-card-text{
+    flex: 9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.parent-card div:nth-child(even)  {
+    flex-direction: row-reverse;
+}
+.card-text{
+    color:black
+}

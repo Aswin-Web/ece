@@ -1,0 +1,37 @@
+/* Mobile Devices */
+.generalNavbar {
+  background-color: #049cbd;
+  margin: 2.5%;
+  border-radius: 7px;
+}
+.me-auto {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+a.nav-link {
+  color: antiquewhite;
+}
+.toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+/* IPAD SIZE DEVICES */
+@media (min-width: 768px) {
+  .generalNavbar {
+  }
+  
+
+}
+/* Large Screen Display */
+@media (min-width: 1024px) {
+  .generalNavbar {
+    color: gold;
+  }
+}
+.nav-link{
+  color:white;
+  text-decoration: none;
+
+}
