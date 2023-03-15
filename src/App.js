@@ -8,6 +8,7 @@ import LabPage from './Pages/Lab/main'
 import './Pages/Home/main.css'
 import Footer from './components/Footer/Footer'
 import FacultyPage from './Pages/Faculty/Faculty';
+import Error from './Pages/404/main'
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path="events" element={<ActivitiesPage />} />
         <Route path="labs" element={<LabPage />} />
         <Route path='chairman' element={<LabPage />}/>
+        <Route path='*' element={<Error/>}/>
       </Routes>
       <Footer />
     </div>
