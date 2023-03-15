@@ -79,6 +79,7 @@ body{
 }
 
 .Naac-individual{
+    flex: 1;
     width: 100%;
     display: flex;
     align-items: center;
@@ -112,4 +113,18 @@ body{
 .text-content{
     width: 100%;
     text-align: center;
+}
+
+
+@media (max-width:618px){
+  
+    
+    .Naac-body .Naac-item:nth-child(odd)  {
+    display: none; 
+}
+
+    /* .Naac-Individual-center{
+        width:100vw;
+        
+    } */
 }

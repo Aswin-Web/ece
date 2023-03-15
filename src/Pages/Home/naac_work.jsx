@@ -22,13 +22,13 @@ const naac_work = () => {
             <div className="Naac-individual">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
-                alt="Image of photo "
+                alt="Naac "
               />
             </div>
             <div className="Naac-individual">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
-                alt="Image of photo "
+                alt="NAAC"
               />
             </div>
           </div>
@@ -40,7 +40,7 @@ const naac_work = () => {
               </div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
-                alt="Image of photo "
+                alt="NAAC"
               />
             </div>
           </div>
@@ -49,13 +49,13 @@ const naac_work = () => {
             <div className="Naac-individual">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
-                alt="Image of photo "
+                alt="NAAC "
               />
             </div>
             <div className="Naac-individual">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
-                alt="Image of photo "
+                alt="NAAC "
               />
             </div>
           </div>
