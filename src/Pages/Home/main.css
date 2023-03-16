@@ -122,6 +122,9 @@ body{
     .Naac-body .Naac-item:nth-child(odd)  {
     display: none; 
 }
+.caroseul-image{
+    height:30vh;
+}
 
     /* .Naac-Individual-center{
         width:100vw;

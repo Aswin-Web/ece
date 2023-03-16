@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Hod.module.css";
+import hod from '../../photos/staffs/hod.jpg'
 
 const Hod = () => {
   return (
@@ -8,8 +9,8 @@ const Hod = () => {
         <div className={classes.hodImage}>
           <h1>Head Of The Department</h1>
           <img
-            src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81DGyn3r62L.jpg"
-            alt="HOD img"
+            src={hod}
+                       alt="HOD img"
           />
           <h2>Mrs.P.Jeyabharathi</h2>
         </div>

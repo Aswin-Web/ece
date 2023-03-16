@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./Professor.module.css";
+import mm from "../../photos/staffs/meenakumari.jpg";
+
 
 const Professor = () => {
   return (
@@ -7,7 +9,7 @@ const Professor = () => {
       <h2>Professor</h2>
       <div className={classes.card}>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX31Csquqtfs6hYGCOYrV9DI_tfdgdb2FFBQ&usqp=CAU"
+          src={mm}
           alt="img"
         />
         <div className={classes.names}>

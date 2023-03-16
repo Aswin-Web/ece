@@ -10,7 +10,7 @@ const main = () => {
           <h1>Page Not Found...........!</h1>
           <h1>Try Contacting Admin.....!</h1>
           <h1>
-            ERROR <span>404</span> :)
+            ERROR <span className='red-color'>404</span> :)
           </h1>
         </div>
       </Container>

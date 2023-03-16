@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./PlacementFaculty.module.css";
+import nis from "../../photos/staffs/nishanth.jpg";
+
 
 const PlacementFaculty = () => {
   return (
@@ -7,7 +9,7 @@ const PlacementFaculty = () => {
       <h2>Placement Co-ordinator</h2>
       <div className={classes.card}>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX31Csquqtfs6hYGCOYrV9DI_tfdgdb2FFBQ&usqp=CAU"
+          src={nis}
           alt="img"
         />
         <div className={classes.names}>

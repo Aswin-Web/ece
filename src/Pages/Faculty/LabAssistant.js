@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./LabAssistant.module.css";
+import john from "../../photos/staffs/john.jpg";
+
 
 const LabAssistant = () => {
   return (
@@ -8,7 +10,7 @@ const LabAssistant = () => {
       <div className={classes.lab}>
         <div className={classes.card}>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX31Csquqtfs6hYGCOYrV9DI_tfdgdb2FFBQ&usqp=CAU"
+            src={john}
             alt="img"
           />
           <div className={classes.names}>

@@ -16,7 +16,7 @@ function NavBar() {
       <div className="child-nav">
         <Navbar expand="lg" className="generalNavbar">
           <Container>
-            <Navbar.Brand href="#home" className='navbar-brand'>
+            <Navbar.Brand href="#home" className="navbar-brand">
               <div className="brand-logo">
                 <img src={logo} alt="" />
               </div>
@@ -35,14 +35,15 @@ function NavBar() {
                 <NavLink className="nav-link" to="/activity">
                   Activities
                 </NavLink>
-                <NavLink className="nav-link" to="/events">
-                  Events
-                </NavLink>
+
                 <NavLink className="nav-link" to="/labs">
                   Labs
                 </NavLink>
-                <NavLink className="nav-link" to="/chairman">
-                  Chairman
+                <NavLink className="nav-link" to="/events">
+                  Events
+                </NavLink>
+                <NavLink className="nav-link" to="/mg">
+                  Management
                 </NavLink>
               </Nav>
             </Navbar.Collapse>

@@ -2,46 +2,43 @@ import React from "react";
 import classes from "./EventCard.module.css";
 
 import Card from "react-bootstrap/Card";
-import CustomizedDialogs from "./UI/Dialog";
+import act1 from "../../../photos/activites/1.jpg"
+import act2 from "../../../photos/activites/2.jpg";
+import act3 from "../../../photos/activites/3.jpg";
+import act4 from "../../../photos/activites/4.jpg";
+import act5 from "../../../photos/activites/5.jpg";
 
 
 
 const DUMMY_DATA = [
   {
-    image:
-      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/robert-pattinson-as-batman-bruce-wayne-in-the-batman-1645186686.jpeg?crop=0.505xw:0.757xh;0.385xw,0.0144xh&resize=1200:*",
-    title: "Batman",
-    text: "The dark knight rises",
+    image: act1,
+
+    text: "1“ADVANCE NETWORKING PROTOCOLS” under the chief guest B.Sivabalamurugan, Cyber Security Ambassador, Diya Robotics Chennai on 26.09.2022.",
+    title: "",
   },
   {
-    image:
-      "https://thumbs.dreamstime.com/b/superman-statue-life-size-fictional-character-batman-v-dawn-justice-promotion-booth-organized-hot-toys-68521577.jpg",
-    title: "Batman",
-    text: "The dark knight rises",
+    image: act2,
+    title: "",
+    text: "2“Introduction to Core Electronics”, using a Resource Person Mr. Jaiger Anandan, General Manager, IFASW Engineering Career, Coimbatore on 17.08.2022.",
   },
   {
-    image:
-      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/robert-pattinson-as-batman-bruce-wayne-in-the-batman-1645186686.jpeg?crop=0.505xw:0.757xh;0.385xw,0.0144xh&resize=1200:*",
-    title: "Batman",
-    text: "The dark knight rises",
+    image: act3,
+
+    title: "",
+    text: "3“PRINCIPLES OF SPREAD SPECTRUM TECHNIQUES “using a Resource person Mr.Harikrishna from Robert Bosch,",
   },
   {
-    image:
-      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/robert-pattinson-as-batman-bruce-wayne-in-the-batman-1645186686.jpeg?crop=0.505xw:0.757xh;0.385xw,0.0144xh&resize=1200:*",
-    title: "Batman",
-    text: "The dark knight rises",
+    image:act4,
+      
+    title: "",
+    text: "UBA activity",
   },
   {
-    image:
-      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/robert-pattinson-as-batman-bruce-wayne-in-the-batman-1645186686.jpeg?crop=0.505xw:0.757xh;0.385xw,0.0144xh&resize=1200:*",
-    title: "Batman",
-    text: "The dark knight rises",
-  },
-  {
-    image:
-      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/robert-pattinson-as-batman-bruce-wayne-in-the-batman-1645186686.jpeg?crop=0.505xw:0.757xh;0.385xw,0.0144xh&resize=1200:*",
-    title: "Batman",
-    text: "The dark knight risessdvvvvvvvvvvvvvvvvvvvvvvvvvfaewgEGERGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGAEGSAGREERHBFASERGSFDGVBDFG",
+    image:act5,
+
+    title: "",
+    text: "Medical Camp ",
   },
 ];
 const EventCard = () => {
@@ -69,9 +66,9 @@ const EventCard = () => {
                 <Card.Body
                   style={{ backgroundColor: "#D9D9D9", borderRadius: "15px" }}
                 >
-                  <Card.Title>{card.title}</Card.Title>
+                  <Card.Title style={{color:'black'}}>{card.title}</Card.Title>
                   <Card.Text style={{ padding: "2em" }}>{card.text}</Card.Text>
-                  <CustomizedDialogs image={card.image} title={card.title} text={card.text}/>
+                 
                 </Card.Body>
               </Card>
             </li>

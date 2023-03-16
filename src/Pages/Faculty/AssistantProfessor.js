@@ -1,5 +1,11 @@
 import React from "react";
 import classes from "./AssistantProfessor.module.css";
+import mani from "../../photos/staffs/mani.jpg";
+// import periya from "../../photos/staffs/";
+import dilip from '../../photos/staffs/dhilip.jpg'
+import pavi from '../../photos/staffs/pavithra.jpg'
+import tamil from "../../photos/staffs/tamil selvi.jpg";
+
 
 const AssistantProfessor = () => {
   return (
@@ -9,7 +15,7 @@ const AssistantProfessor = () => {
         <div className={classes.apCards}>
           <div className={classes.card}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX31Csquqtfs6hYGCOYrV9DI_tfdgdb2FFBQ&usqp=CAU"
+              src={mani}
               alt="img"
             />
             <div className={classes.names}>
@@ -29,7 +35,7 @@ const AssistantProfessor = () => {
           </div>
           <div className={classes.card}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7RArcVWmO0POIa8O_zlfpFNkVBadz3hSFag&usqp=CAU"
+              src={dilip}
               alt="img"
             />
             <div className={classes.names}>
@@ -39,7 +45,7 @@ const AssistantProfessor = () => {
           </div>
           <div className={classes.card}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX31Csquqtfs6hYGCOYrV9DI_tfdgdb2FFBQ&usqp=CAU"
+              src={pavi}
               alt="img"
             />
             <div className={classes.names}>
@@ -49,7 +55,7 @@ const AssistantProfessor = () => {
           </div>
           <div className={classes.card}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX31Csquqtfs6hYGCOYrV9DI_tfdgdb2FFBQ&usqp=CAU"
+              src={tamil}
               alt="img"
             />
             <div className={classes.names}>

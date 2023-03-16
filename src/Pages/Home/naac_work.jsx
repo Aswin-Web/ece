@@ -1,5 +1,11 @@
 import React from 'react'
 import Container from "react-bootstrap/Container";
+import img1 from '../../photos/naac/1.png'
+import img2 from '../../photos/naac/2.jpg'
+import img3 from '../../photos/naac/3.jpg'
+import img4 from '../../photos/naac/4.jpg'
+import img5 from "../../photos/naac/5.jpg";
+
 
 const naac_work = () => {
   return (
@@ -7,27 +13,21 @@ const naac_work = () => {
       <Container>
         <h3>NAAC Work</h3>
         <p>
-          <span className="para">A</span> good place to learn new things.
-          Teachers are like our friends and they do anything for the student's
-          welfare. They teach for placement along with the academic syllabus.
-          The calm and greenish environment make us to think differently. The
-          homely atmosphere of hostel and food facilities give us a thought of
-          our own place. Totally, our college is a place to learn more, grow
-          more and achieve more. I thank all of you for supporting and
-          encouraging me and for providing placement opportunities.
+          <span className="para">It</span> is pleased to declare Sri Ranganathar Institute Of Engineering and Technology, Athipalayam, Coimbatore, affliated by Anna University, Tamil Nadu 
+          as Accredited with CGPA of 3.34 on 4 point scale at A+ Grade.
         </p>
 
         <div className="Naac-body">
           <div className="Naac-item">
             <div className="Naac-individual">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
+                src={img1}
                 alt="Naac "
               />
             </div>
             <div className="Naac-individual">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
+                src={img2}
                 alt="NAAC"
               />
             </div>
@@ -39,7 +39,7 @@ const naac_work = () => {
                 <h3>NAAC A+</h3>
               </div>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
+                src={img5}
                 alt="NAAC"
               />
             </div>
@@ -48,54 +48,72 @@ const naac_work = () => {
           <div className="Naac-item">
             <div className="Naac-individual">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
+                src={img3}
                 alt="NAAC "
               />
             </div>
             <div className="Naac-individual">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtoLVhMIfPRj_8d5RQKF2qjwUbuYL2tZTg&usqp=CAU"
+                src={img4}
                 alt="NAAC "
               />
             </div>
           </div>
         </div>
+        <br />
         <div className="college-name">
           <h3>Electronics and Communication Engineering</h3>
+          <br />
           <p>
-            <span className="para">A</span> good place to learn new things.
-            Teachers are like our friends and they do anything for the student's
-            welfare. They teach for placement along with the academic syllabus.
-            The calm and greenish environment make us to think differently. The
-            homely atmosphere of hostel and food facilities give us a thought of
-            our own place. Totally, our college is a place to learn more, grow
-            more and achieve more. I thank all of you for supporting and
-            encouraging me and for providing placement opportunities.
+            <span className="para">Electronics</span> Electronics and
+            communication engineering synthesizes science, mathematics,
+            technology, and application-oriented designs into world-class
+            consumer products, timely microprocessors, state-of-the-art
+            computers, advanced electronic components, and much more. From
+            cutting-edge technology revolutions to real life applications, the
+            innovations of electrical engineers continue to lead the future and
+            elevate the standards in the marketplace. With a shortage of
+            electrical engineering talent in the job market, the demand for
+            graduates with an electrical engineering degree remains at an
+            all-time high.
           </p>
         </div>
         <div className="college-name">
-          <h3 className="text-content">Our Mission</h3>
+          <br />
+          <h3 className="text-content">Vision</h3>
+          <br />
           <p>
-            <span className="para">A</span> good place to learn new things.
-            Teachers are like our friends and they do anything for the student's
-            welfare. They teach for placement along with the academic syllabus.
-            The calm and greenish environment make us to think differently. The
-            homely atmosphere of hostel and food facilities give us a thought of
-            our own place. Totally, our college is a place to learn more, grow
-            more and achieve more.
+            <span className="para">To</span> inculcate the intellectual
+            competence of students on par with global standards for making them
+            contributing technocrats.
           </p>
+          <br />
         </div>
         <div className="college-name">
-          <h3 className="text-content">Our Vision</h3>
-          <p>
-            <span className="para">A</span> good place to learn new things.
-            Teachers are like our friends and they do anything for the student's
-            welfare. They teach for placement along with the academic syllabus.
-            The calm and greenish environment make us to think differently. The
-            homely atmosphere of hostel and food facilities give us a thought of
-            our own place. Totally, our college is a place to learn more, grow
-            more and achieve more.
-          </p>
+          <h3 className="text-content">Mission</h3>
+          <ul>
+            <br />
+            <li>
+              To embrace innovative teaching and learning methodologies that
+              lead to the self-improvement of students.
+            </li>
+            <br />
+            <li>
+              To embed contemporary technical knowledge in core and allied field
+              by implementing collaborative research with industry.
+            </li>
+            <br />
+            <li>
+              To enhance the competency of students to meet the challenges posed
+              in industry on employment.
+            </li>
+            <br />
+            <li>
+              To enlighten our students with ethical, moral values and
+              leadership.
+            </li>
+            <br />
+          </ul>
         </div>
       </Container>
     </div>
